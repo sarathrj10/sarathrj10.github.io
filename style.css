@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #dbd5d5;
+   
+}
+.container{
+    
+    width: 80%;
+    margin:auto;
+    font-family: Arial, Helvetica, sans-serif;
+    
+   
+}
+header{
+    background-color: #333030;
+   min-height: 70px;
+    color: white;
+    align-items: center;
+    text-align: center;
+    border-bottom: 3px solid #de1f0d;
+}
+
+nav ul li a
+{
+    color: #fff;   
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+   
+}
+nav ul li
+{
+    display: inline-block;
+    padding: 15px;
+    margin-top: 19px;
+    
+}
+header h1{
+float: left;
+margin-top: 25px;
+}
+nav{
+    float: right;
+    
+}
+#showcase
+{
+    background-image:
+    linear-gradient( rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.73)),
+    url('./bg.jpg');
+    min-height: 400px;
+    background-size: cover;
+    text-align: center;
+    background-position: center;
+    background-attachment: fixed;
+}
+#showcase h1{
+    font-size: 4rem;
+    color:white;
+    padding-top: 10%;
+    text-align: center;
+}
+#showcase p{
+    color: #fff;
+    font-size: 1rem;
+    padding-top: 5%;
+}
+#newsletter
+{
+    background-color: #333030;
+    padding-top: 1.75%;
+}
+#newsletter .container
+{
+    min-height: 50px;
+    
+}
+#form1, #form2, #form3{
+    float: right;
+}
+#newsletter .container h2
+{
+    color:#fff;
+    float: left;
+}
+#newsletter .container input[type=email]
+{
+    padding: 8px 25px;
+}
+.btn, .btn1{
+    padding: 8px 25px;
+    background-color: orangered;
+    color:white;
+}
+#boxes
+{
+    
+    margin-top: 2%;
+}
+.box
+{
+    float: left;
+    width: 30%;
+    
+    text-align: center ;
+   
+   margin-bottom: 2rem;
+}
+.logo{
+    font-size: 10rem;
+    margin:1.5rem 0px;
+}
+h3
+{
+    margin:1.5rem 0px;
+}
+#main
+{
+  margin: 25px;
+}
+#main h2
+{
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+}
+
+article{
+    width: 65%;
+    float: left;
+}
+aside
+{
+    width: 30%;
+    float: right;
+}
+#servicesmain
+{
+    width: 65%;
+    margin-bottom: 25px;
+    float: left;
+    margin-top: 20px;
+}
+.content
+{
+    border: 2px solid #cccccc;
+    background-color: #e6e6e6;
+    padding: 20px;
+
+}
+#quote
+{
+    
+    float: right;
+    width: 27%;
+    background-color: #333033;
+    margin: 3rem;
+
+}
+#lastone
+{
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 20%;
+}
+#quote h2
+{
+    color: white;
+   padding: 2rem;
+   text-align: center;
+}
+#quote .container input[type=email]
+{
+    padding: 8px 25px;
+}
+#quote .container input[type=text]
+{
+    padding: 8px 25px;
+    
+}
+#quote .container textarea
+{
+    resize: none;
+    padding: 8px 25px;
+    width: 60%;
+    height: 100px;
+    font-size: 15px;
+}
+.contact
+{
+    
+    text-align: left;
+    color: white;
+    
+}
+.lab{
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+.button_1
+{
+    padding: 10px 30px;
+    background-color: orangered;
+    color: white;
+    margin: 10px 0;
+}
+
+
+footer
+{ 
+   clear:both;
+    min-height: 35px;
+    background-color: orangered;
+    text-align: center;
+    padding-top: 1.5%;
+    color: #fff;
+    
+}
+
+footer p
+{
+    font-size: 20px;
+    
+}
+#aboutfooter{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+}
+#servicefooter
+{
+    position:absolute;
+    top:133%;
+    width: 100%;
+}
+@media only screen and (max-width: 400px) {
+    header h1, nav, header nav ul{
+        float: none;
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+    }
+nav ul{
+        padding-left: 0;  
+    }
+#showcase h1{
+        font-size: 3rem;
+    }
+#form1, #newsletter .container h2{
+    float: none;
+    width: 100%;
+    line-height: 2rem;
+    text-align: center;
+}
+#newsletter .container h2{
+    padding-bottom: 10px;
+}
+.btn{margin: 15px;}
+.box{
+    float:none;
+    width: 100%;
+}
+#form2, #form3
+{
+    float:none;
+}
+#form2 input{
+    margin-left: 10%;
+}
+#form2 input[type=submit]{
+    margin-left: 30%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+article, aside{
+    float: none;
+    width: 100%;
+    padding-bottom: 20px;
+}
+#aboutfooter{
+    position: relative;
+    top:100%;
+    width: 100%;
+
+}
+#form3 input{
+    margin-left: 10%;
+}
+#form3 input[type=submit]{
+    margin-left: 30%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+#servicesmain, #quote{
+   float:none;
+   width: 100%;
+   
+   
+}
+#servicesmain h2, .content{
+    margin-bottom: 20px;
+}
+#lastone
+{
+ display: none;
+   
+}
+#servicefooter
+{
+    position:relative;
+    top:100%;
+    width: 100%;
+}
+}
